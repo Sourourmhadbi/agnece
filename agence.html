@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de Voyage</title>
+    <!-- Lien vers CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+
+            background-size: cover;
+            color: white;
+            text-shadow: 0 0 10px rgb(0, 0, 0);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        .welcome {
+            margin-top: 50px;
+            background-image: url('../agence/IMG5.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:1000px;
+            margin: 50px;
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            margin-bottom: 400px;
+            margin-bottom: 60px;
+
+        }
+        @media  screen and (max-width:800px) {
+            .welcome{
+                height: 500px;
+                
+            }
+            
+        }
+
+        .welcome h4 {
+            margin-left: 150px;
+            font-size:medium;
+            font-style: oblique;
+            
+            
+
+        }
+        .welcome h1{
+            color:rgb(44, 44, 188);
+            
+            
+        }
+        .aa{
+            margin-bottom: 700px;
+
+        }
+       
+        .pp {
+            padding: 80px;
+            padding-left: 500px;
+
+        }
+        .welcome p{
+            font-style:oblique;
+            
+            
+        }
+
+        .footer {
+            background-color: #0d0d0e;
+            color: white;
+            padding: 20px 0;
+
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <img src="../agence/logo1.png" width="50px" height="40px">
+            <div class="ss">
+                <a class="navbar-brand" href="#">TravelToDo</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Circuits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="welcome">
+        <h1>TravelToDo</h1>
+        <div class="aa">
+            <h4>les prix tout doux</h4>
+            <p>**Bienvenue dans notre agence de voyages**</p>   
+               
+        </div>
+       
+    </div>
+
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../agence/CITY1.jpg" class="d-block w-100" height="700px">
+            </div>
+            <div class="carousel-item">
+                <img src="../agence/CITY2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../agence/beach1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../agence/beach2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../agence/img1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../agence/img2.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- Section Héros -->
+    <section class="hero-section">
+        <div>
+            <h1>Explorez le Monde</h1>
+            <p class="lead">Votre prochaine aventure commence ici</p>
+            <a href="#" class="btn btn-primary btn-lg">Réservez maintenant</a>
+        </div>
+    </section>
+
+    <!-- Section Destinations -->
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Destinations Populaires</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../agence/beach.webp" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Plages paradisiaques</h5>
+                        <p class="card-text">Découvrez des plages à couper le souffle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../agence/mountains.webp" class="card-img-top" alt="Destination 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Montagnes majestueuses</h5>
+                        <p class="card-text">Vivez une expérience alpine inoubliable.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../agence/city.jpg" class="card-img-top" alt="Destination 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Villes emblématiques</h5>
+                        <p class="card-text">Plongez dans l'ambiance urbaine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Voyages -->
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Nos Voyages</h2>
+        <div class="accordion" id="voyagesAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Voyage 1 : Safari en Afrique
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                    <div class="accordion-body">
+                        Découvrez la faune africaine avec des guides expérimentés. <a href="#">Voir les détails</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Voyage 2 : Croisière Méditerranéenne
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                    <div class="accordion-body">
+                        Explorez les joyaux de la Méditerranée en croisière. <a href="#">Voir les détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulaire de Contact -->
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Contactez-nous</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Votre nom">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Adresse électronique</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre email">
+            </div>
+            <div class="mb-3">
+                <label for="destination" class="form-label">Destination d'intérêt</label>
+                <select class="form-select" id="destination">
+                    <option>Plages paradisiaques</option>
+                    <option>Montagnes majestueuses</option>
+                    <option>Villes emblématiques</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="footer text-center">
+        <p>© 2024 TravelToDo. Tous droits réservés.</p>
+        <div>
+            <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- Script JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
